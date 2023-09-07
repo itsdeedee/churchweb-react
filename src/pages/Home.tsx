@@ -1,5 +1,5 @@
 import Header from "../components/Header.tsx";
-
+import Button from "../components/Button.tsx";
 export default function Home() {
   return (
     <>
@@ -12,6 +12,7 @@ export default function Home() {
           quisquam nostrum ipsam quis.
         </h5>
       </div>
+      <Button />
     </>
   );
 }

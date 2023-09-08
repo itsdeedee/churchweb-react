@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import churchLogo from "../images/churchLogo.png";
 import "../Home.css";
@@ -23,32 +23,32 @@ export default function Header() {
           <ul className={click ? "navbar-menu active" : "navbar-menu"}>
             <li>
               <Link to="/home" className="navbar-links">
-                HOME
+                Home
               </Link>
             </li>
             <li>
               <Link to="/about" className="navbar-links">
-                ABOUT
+                About
               </Link>
             </li>
             <li>
               <Link to="/events" className="navbar-links">
-                EVENTS
+                Event
               </Link>
             </li>
             <li>
               <Link to="/ministries" className="navbar-links">
-                MINISTRIES
+                Ministries
               </Link>
             </li>
             <li>
               <Link to="/gallery" className="navbar-links">
-                GALLERY
+                Gallery
               </Link>
             </li>
             <li>
               <Link to="/contact" className="navbar-links">
-                CONTACT
+                Contact
               </Link>
             </li>
           </ul>

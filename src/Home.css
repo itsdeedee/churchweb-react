@@ -204,8 +204,8 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
   .home-events-content img {
-    width: 360px;
-    height: 250px;
+    width: 300px;
+    height: 240px;
   }
   .eventsPic3 {
     display: block;

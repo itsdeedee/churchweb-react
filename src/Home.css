@@ -141,7 +141,7 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
 }
 .home-events-content img {
-  width: 450px;
+  width: 400px;
   height: 280px;
 }
 @media screen and (max-width: 850px) {

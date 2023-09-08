@@ -141,8 +141,8 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
 }
 .home-events-content img {
-  width: 400px;
-  height: 280px;
+  width: 350px;
+  height: 250px;
 }
 @media screen and (max-width: 850px) {
   .navbar-menu {

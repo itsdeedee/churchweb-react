@@ -58,14 +58,17 @@ export default function Home() {
         <div className="home-events-content">
           <div className="eventsPic1">
             <img src={eventPic1} alt="Bible" />
+            <h4>SOLUTION SUNDAY</h4>
             <p></p>
           </div>
           <div className="eventsPic2">
             <img src={eventPic2} alt="Church Choir" />
+            <h4>THANKSGIVING SUNDAY</h4>
             <p></p>
           </div>
           <div className="eventsPic3">
             <img src={eventPic3} alt="Woman worshipping" />
+            <h4>WORD AND PRAYER DINNER</h4>
             <p></p>
           </div>
         </div>

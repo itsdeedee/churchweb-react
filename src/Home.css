@@ -170,8 +170,8 @@ h3 {
   margin-top: 190px;
   margin-bottom: 100px;
   padding: 0 0 100px 0;
-  margin-left: -7px;
-  margin-right: -5px;
+  margin-left: -8px;
+  margin-right: -7px;
 }
 .home-swiper {
   margin-left: 40px;
@@ -252,11 +252,11 @@ h3 {
     display: block;
   }
   .swiper-slide img {
-    width: 350px;
+    width: 360px;
     height: 300px;
   }
   .home-swiper {
-    margin-left: 10px;
+    margin-left: 3px;
     margin-right: 0;
   }
 }
@@ -286,5 +286,13 @@ h3 {
   .home-events-content img {
     width: 330px;
     height: 230px;
+  }
+  .home-gallery {
+    overflow-x: hidden;
+    padding: 20px 0;
+  }
+  .home-gallery img {
+    margin-top: -50px;
+    width: 370px;
   }
 }

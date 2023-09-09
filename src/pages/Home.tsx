@@ -5,6 +5,23 @@ import eventPic from "../images/Eventspic .png";
 import eventPic1 from "../images/eventsPic1.jpg";
 import eventPic2 from "../images/eventsPic2.jpg";
 import eventPic3 from "../images/eventsPic3.jpg";
+import Gallerypic from "../images/Gallerypic.png";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import slide_image_1 from "../images/Gallery1.jpg";
+import slide_image_2 from "../images/Gallery2.jpg";
+import slide_image_3 from "../images/Gallery3.jpg";
+import slide_image_4 from "../images/Gallery4.jpg";
+import slide_image_5 from "../images/Gallery5.jpg";
+import slide_image_6 from "../images/Gallery6.jpg";
+import slide_image_7 from "../images/Gallery7.jpg";
+import slide_image_8 from "../images/Gallery8.jpg";
+import slide_image_9 from "../images/eventsPic1.jpg";
+import slide_image_10 from "../images/eventsPic2.jpg";
+import slide_image_11 from "../images/eventsPic3.jpg";
 
 import { Link } from "react-router-dom";
 export default function Home() {
@@ -70,6 +87,82 @@ export default function Home() {
             <img src={eventPic3} alt="Woman worshipping" />
             <h4>WORD AND PRAYER DINNER</h4>
             <p></p>
+          </div>
+        </div>
+      </div>
+      <div className="home-gallery">
+        <div className="home-gallery2">
+          <img
+            src={Gallerypic}
+            alt="Gallery Head"
+            className="home-gallery-img"
+          />
+          <div className="home-swiper">
+            <Swiper
+              loop={true}
+              slidesPerView={1}
+              spaceBetween={30}
+              breakpoints={{
+                600: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                850: {
+                  slidesPerView: 3,
+                  spaceBetween: 40,
+                },
+              }}
+              navigation={{
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-next",
+                clickable: true,
+              }}
+              pagination={{
+                el: ".swiper-pagination",
+                clickable: true,
+              }}
+              modules={[Navigation, Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <img src={slide_image_1} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_2} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_3} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_4} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_5} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_6} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_7} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_8} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_9} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_10} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={slide_image_11} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <div className="slider-controler">
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
+                <div className="swiper-pagination"></div>
+              </div>
+            </Swiper>
           </div>
         </div>
       </div>

@@ -114,8 +114,7 @@ export default function Home() {
               }}
               navigation={{
                 nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-next",
-                clickable: true,
+                prevEl: ".swiper-button-prev",
               }}
               pagination={{
                 el: ".swiper-pagination",

@@ -11,12 +11,12 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import slide_image_1 from "../images/Gallery1.jpg";
+
 import slide_image_2 from "../images/Gallery2.jpg";
 import slide_image_3 from "../images/Gallery3.jpg";
 import slide_image_4 from "../images/Gallery4.jpg";
 import slide_image_5 from "../images/Gallery5.jpg";
-import slide_image_6 from "../images/Gallery6.jpg";
+
 import slide_image_7 from "../images/Gallery7.jpg";
 import slide_image_8 from "../images/Gallery8.jpg";
 import slide_image_9 from "../images/eventsPic1.jpg";
@@ -124,9 +124,6 @@ export default function Home() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <img src={slide_image_1} alt="slide_image" />{" "}
-              </SwiperSlide>
-              <SwiperSlide>
                 <img src={slide_image_2} alt="slide_image" />{" "}
               </SwiperSlide>
               <SwiperSlide>
@@ -137,9 +134,6 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <img src={slide_image_5} alt="slide_image" />{" "}
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src={slide_image_6} alt="slide_image" />{" "}
               </SwiperSlide>
               <SwiperSlide>
                 <img src={slide_image_7} alt="slide_image" />{" "}

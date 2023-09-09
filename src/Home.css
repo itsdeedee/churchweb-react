@@ -253,7 +253,7 @@ h3 {
   }
   .swiper-slide img {
     width: 360px;
-    height: 310px;
+    height: 300px;
   }
   .home-swiper {
     margin-left: 3px;
@@ -294,6 +294,5 @@ h3 {
   .home-gallery img {
     margin-top: -50px;
     width: 370px;
-    height: 350px;
   }
 }

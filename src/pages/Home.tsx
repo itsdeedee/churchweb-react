@@ -124,6 +124,9 @@ export default function Home() {
               className="mySwiper"
             >
               <SwiperSlide>
+                <img src={slide_image_11} alt="slide_image" />{" "}
+              </SwiperSlide>
+              <SwiperSlide>
                 <img src={slide_image_2} alt="slide_image" />{" "}
               </SwiperSlide>
               <SwiperSlide>
@@ -147,9 +150,7 @@ export default function Home() {
               <SwiperSlide>
                 <img src={slide_image_10} alt="slide_image" />{" "}
               </SwiperSlide>
-              <SwiperSlide>
-                <img src={slide_image_11} alt="slide_image" />{" "}
-              </SwiperSlide>
+
               <div className="slider-controler">
                 <div className="swiper-button-prev"></div>
                 <div className="swiper-button-next"></div>

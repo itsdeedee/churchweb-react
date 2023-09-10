@@ -197,6 +197,31 @@ h3 {
 .testimony-content {
   text-align: center;
 }
+.Testimonies p {
+  inline-size: 650px;
+  overflow-wrap: break-word;
+  text-align: justify;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.icon1 {
+  position: relative;
+  left: -345px;
+  font-size: 24px;
+}
+.icon2 {
+  position: relative;
+  left: 340px;
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+.testimony-link {
+  background-color: #251c46;
+  color: white;
+  padding: 15px 35px;
+  font-family: Inria Sans;
+}
 @media screen and (max-width: 800px) {
   .navbar-menu {
     display: flex;
@@ -306,5 +331,9 @@ h3 {
   .home-gallery img {
     margin-top: -50px;
     width: 370px;
+  }
+  .Testimonies p {
+    inline-size: none;
+    overflow-wrap: none;
   }
 }

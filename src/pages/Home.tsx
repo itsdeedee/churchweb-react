@@ -167,15 +167,21 @@ export default function Home() {
           <div>
             <i className="fa-solid fa-quote-left fa-beat-fade icon1" />
           </div>
-          <div className="testimony-paragraph">
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
             quas accusantium delectus nihil maxime, placeat porro inventore
             tempora quisquam nostrum ipsam quis.
-          </div>
+          </p>
           <div>
-            <i className="fa-solid fa-quote-left fa-beat-fade icon2" />
+            <i className="fa-solid fa-quote-right fa-beat-fade icon2" />
           </div>
-          <Link to="/">See More</Link>
+          <Link
+            to="/"
+            style={{ textDecoration: "none" }}
+            className="testimony-link"
+          >
+            See More
+          </Link>
         </div>
       </div>
     </>

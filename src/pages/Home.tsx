@@ -22,6 +22,7 @@ import slide_image_8 from "../images/Gallery8.jpg";
 import slide_image_9 from "../images/eventsPic1.jpg";
 import slide_image_10 from "../images/eventsPic2.jpg";
 import slide_image_11 from "../images/eventsPic3.jpg";
+import testimonyPic from "../images/home-testimonies.png";
 
 import { Link } from "react-router-dom";
 export default function Home() {
@@ -158,6 +159,23 @@ export default function Home() {
               </div>
             </Swiper>
           </div>
+        </div>
+      </div>
+      <div className="Testimonies">
+        <img src={testimonyPic} alt="Testimony header" />
+        <div className="testimony-content">
+          <div>
+            <i className="fa-solid fa-quote-left fa-beat-fade icon1" />
+          </div>
+          <div className="testimony-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            quas accusantium delectus nihil maxime, placeat porro inventore
+            tempora quisquam nostrum ipsam quis.
+          </div>
+          <div>
+            <i className="fa-solid fa-quote-left fa-beat-fade icon2" />
+          </div>
+          <Link to="/">See More</Link>
         </div>
       </div>
     </>

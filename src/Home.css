@@ -184,7 +184,19 @@ h3 {
 .slider-controler .swiper-button-prev {
   color: white;
 }
-
+.Testimonies .testimony-paragraph {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.Testimonies img {
+  width: 330px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -60px;
+}
+.testimony-content {
+  text-align: center;
+}
 @media screen and (max-width: 800px) {
   .navbar-menu {
     display: flex;

@@ -222,7 +222,7 @@ h3 {
   padding: 15px 35px;
   font-family: Inria Sans;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .navbar-menu {
     display: flex;
     flex-direction: column;
@@ -333,7 +333,13 @@ h3 {
     width: 370px;
   }
   .Testimonies p {
-    inline-size: none;
-    overflow-wrap: none;
+    inline-size: 300px;
+    font-size: 16px;
+  }
+  .icon1 {
+    left: -160px;
+  }
+  .icon2 {
+    left: 150px;
   }
 }

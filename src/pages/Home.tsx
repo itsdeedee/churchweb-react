@@ -23,6 +23,7 @@ import slide_image_9 from "../images/eventsPic1.jpg";
 import slide_image_10 from "../images/eventsPic2.jpg";
 import slide_image_11 from "../images/eventsPic3.jpg";
 import testimonyPic from "../images/home-testimonies.png";
+import Footer from "../components/Footer.tsx";
 
 import { Link } from "react-router-dom";
 export default function Home() {
@@ -184,6 +185,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

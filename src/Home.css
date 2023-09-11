@@ -162,7 +162,7 @@ h3 {
 }
 
 .swiper-slide img {
-  width: 430px;
+  width: 400px;
   height: 320px;
 }
 .home-gallery {
@@ -221,6 +221,20 @@ h3 {
   color: white;
   padding: 15px 35px;
   font-family: Inria Sans;
+}
+.quick-link {
+  border-bottom: 1px solid black;
+  margin-right: 280px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 100px;
+}
+.quick-link-head {
+  margin-left: 100px;
 }
 @media screen and (max-width: 850px) {
   .navbar-menu {

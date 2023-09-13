@@ -77,4 +77,10 @@
   .About-HOM {
     display: block;
   }
+  .About-RCCG-content {
+    margin-left: 0;
+  }
+  .RCCG-P {
+    margin-left: 0;
+  }
 }

@@ -415,4 +415,7 @@ span {
     width: 350px;
     margin-left: 10px;
   }
+  .about-content {
+    margin-left: 0px;
+  }
 }

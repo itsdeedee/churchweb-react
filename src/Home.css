@@ -338,7 +338,6 @@ span {
   .home-events-content img {
     width: 330px;
     height: 240px;
-    margin-left: 10px;
   }
   .eventsPic3 {
     display: block;
@@ -348,7 +347,7 @@ span {
     height: 300px;
   }
   .home-swiper {
-    margin-left: 10px;
+    margin-left: 0;
     margin-right: 0;
   }
   .footer {
@@ -364,19 +363,15 @@ span {
     display: block;
   }
   .about-content {
-    margin-right: -8px;
-    margin-left: -8px;
     margin-top: -69px;
     margin-bottom: 0;
     padding-bottom: 50px;
   }
   .pic img {
     width: 270px;
-    margin-left: 80px;
+    margin-left: 60px;
   }
-  .pic {
-    margin-right: -8px;
-  }
+
   .home-events-content {
     display: block;
     margin-left: 15px;
@@ -384,7 +379,7 @@ span {
   .home-events-content img {
     width: 350px;
     height: 230px;
-    margin-left: 20px;
+    margin-left: 5px;
   }
   .home-gallery {
     overflow-x: hidden;

@@ -64,7 +64,7 @@ h5 {
   text-align: center;
   padding: 220px 0px;
   color: white;
-  margin: -150px -10px;
+  margin: -150px 0px;
 }
 h3 {
   font-family: Inconsolata;
@@ -96,7 +96,7 @@ h3 {
 .about-content {
   background: #eee;
   margin-left: -150px;
-  margin-right: -8px;
+  margin-right: 0px;
   margin-top: 20px;
 }
 .about-content1 {
@@ -142,9 +142,9 @@ h3 {
   margin-left: -2px;
 }
 .home-events-content img {
-  width: 420px;
+  width: 410px;
   height: 270px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .home-events-content h4 {
   color: #251c46;
@@ -171,8 +171,6 @@ h3 {
   margin-top: 190px;
   margin-bottom: 100px;
   padding: 0 0 100px 0;
-  margin-left: -8px;
-  margin-right: -7px;
 }
 .home-swiper {
   margin-left: 40px;
@@ -384,7 +382,7 @@ span {
     margin-left: 15px;
   }
   .home-events-content img {
-    width: 330px;
+    width: 350px;
     height: 230px;
     margin-left: 20px;
   }
@@ -394,7 +392,7 @@ span {
   }
   .home-gallery img {
     margin-top: -50px;
-    width: 370px;
+    width: 380px;
   }
   .Testimonies p {
     inline-size: 300px;

@@ -1,0 +1,80 @@
+.About-head h2 {
+  margin-top: 30.5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 45px;
+}
+.About-head p {
+  background-color: #eee;
+  padding: 3px;
+  margin-left: 480px;
+  margin-right: 480px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.About-content {
+  margin-top: 300px;
+}
+.About-RCCG {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.About-RCCG img {
+  width: 500px;
+  margin-left: 100px;
+}
+.About-RCCG-content {
+  margin-left: 25px;
+}
+.About-RCCG-content h2 {
+  font-family: "Inconsolata", monospace;
+  font-size: 27px;
+}
+.About-content p {
+  color: #251c46;
+  font-family: Inria Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.About-HOM {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.About-HOM-content h2 {
+  font-family: "Inconsolata", monospace;
+  font-size: 27px;
+}
+.About-HOM img {
+  width: 500px;
+  margin-left: 20px;
+}
+.RCCG-P {
+  margin-left: 25px;
+}
+@media screen and (max-width: 850px) {
+  .About-head p {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+  .About-RCCG {
+    display: block;
+  }
+  .About-RCCG img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .About-HOM img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+  }
+  .About-HOM {
+    display: block;
+  }
+}

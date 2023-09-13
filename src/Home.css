@@ -40,11 +40,12 @@
 .menu-icons {
   display: none;
 }
-h2 {
+.Head h2 {
   font-family: Inter, sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
+  margin-top: 60px;
 }
 h5 {
   font-family: Inder;

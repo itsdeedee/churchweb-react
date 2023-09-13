@@ -353,13 +353,13 @@ span {
   }
   .footer {
     grid-template-columns: repeat(2, 1fr);
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .Map {
     display: block;
   }
   .Testimonies {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 

@@ -22,7 +22,7 @@ import slide_image_8 from "../images/Gallery8.jpg";
 import slide_image_9 from "../images/eventsPic1.jpg";
 import slide_image_10 from "../images/eventsPic2.jpg";
 import slide_image_11 from "../images/eventsPic3.jpg";
-import testimonyPic from "../images/home-testimonies.png";
+import testimonyPic from "../images/home-testim.png";
 import Footer from "../components/Footer.tsx";
 
 import { Link } from "react-router-dom";

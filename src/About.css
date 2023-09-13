@@ -80,6 +80,9 @@
   .About-RCCG-content {
     margin-left: 0;
   }
+  .About-RCCG-content p {
+    text-align: justify;
+  }
   .RCCG-P {
     margin-left: 0;
   }

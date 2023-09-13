@@ -358,6 +358,9 @@ span {
   .Map {
     display: block;
   }
+  .Testimonies {
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -398,6 +401,7 @@ span {
     inline-size: 300px;
     font-size: 16px;
   }
+
   .icon1 {
     left: -160px;
   }

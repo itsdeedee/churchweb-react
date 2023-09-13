@@ -232,9 +232,50 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 100px;
+  background-color: #eee;
 }
 .quick-link-head {
   margin-left: 100px;
+  margin-top: 60px;
+}
+Form h2 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #251c46;
+}
+.Name-field {
+  padding-right: 65px;
+  background-color: #d9d9d9;
+  border: none;
+}
+.Submit-button {
+  border: none;
+  background-color: #d9d9d9;
+  padding: 5px 15px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.Map img {
+  width: 400px;
+  margin-top: 60px;
+  margin-right: 20px;
+}
+span {
+  margin-left: 45px;
+}
+.map-icons {
+  margin-top: 20px;
+  color: #251c46;
+}
+.socials h2 {
+  font-size: 17px;
+  color: #251c46;
+  margin-bottom: 30px;
+}
+.socials {
+  margin-left: 25px;
+  margin-top: 35px;
 }
 @media screen and (max-width: 850px) {
   .navbar-menu {
@@ -310,6 +351,13 @@ h3 {
     margin-left: 10px;
     margin-right: 0;
   }
+  .footer {
+    grid-template-columns: repeat(2, 1fr);
+    overflow: hidden;
+  }
+  .Map {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -355,5 +403,13 @@ h3 {
   }
   .icon2 {
     left: 150px;
+  }
+  .footer {
+    display: block;
+    overflow: hidden;
+  }
+  .quick-link-head {
+    margin-left: 30px;
+    margin-right: 70px;
   }
 }

@@ -142,7 +142,7 @@ h3 {
   margin-left: -2px;
 }
 .home-events-content img {
-  width: 400px;
+  width: 420px;
   height: 270px;
   margin-left: 5px;
 }
@@ -359,6 +359,9 @@ span {
     display: block;
   }
   .Testimonies {
+    overflow-x: hidden;
+  }
+  .home-events-content {
     overflow-x: hidden;
   }
 }

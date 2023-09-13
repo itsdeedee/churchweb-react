@@ -64,7 +64,7 @@ h5 {
   text-align: center;
   padding: 220px 0px;
   color: white;
-  margin: -150px -8px;
+  margin: -150px -10px;
 }
 h3 {
   font-family: Inconsolata;
@@ -152,6 +152,7 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
+  margin-top: 10px;
 }
 .home-gallery-img {
   width: 400px;
@@ -339,6 +340,7 @@ span {
   .home-events-content img {
     width: 330px;
     height: 240px;
+    margin-left: 10px;
   }
   .eventsPic3 {
     display: block;
@@ -353,16 +355,9 @@ span {
   }
   .footer {
     grid-template-columns: repeat(2, 1fr);
-    overflow-x: hidden;
   }
   .Map {
     display: block;
-  }
-  .Testimonies {
-    overflow-x: hidden;
-  }
-  .home-events-content {
-    overflow-x: hidden;
   }
 }
 
@@ -386,11 +381,12 @@ span {
   }
   .home-events-content {
     display: block;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .home-events-content img {
     width: 330px;
     height: 230px;
+    margin-left: 20px;
   }
   .home-gallery {
     overflow-x: hidden;
@@ -411,12 +407,19 @@ span {
   .icon2 {
     left: 150px;
   }
-  .footer {
-    display: block;
-    overflow: hidden;
-  }
+
   .quick-link-head {
     margin-left: 30px;
     margin-right: 70px;
+  }
+  .footer {
+    display: block;
+  }
+  .Testimonies img {
+    width: 250px;
+  }
+  .Map img {
+    width: 350px;
+    margin-left: 10px;
   }
 }

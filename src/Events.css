@@ -85,6 +85,15 @@
     display: block;
     margin-top: 40px;
   }
+  .Uevents1 p {
+    margin-right: 100px;
+  }
+  .Uevents2 p {
+    margin-right: 100px;
+  }
+  .Uevents3 p {
+    margin-right: 100px;
+  }
 }
 @media screen and (max-width: 550px) {
   .Upcoming-events {
@@ -92,5 +101,12 @@
   }
   .Uevents2 {
     margin-top: 40px;
+    padding: 20px 14px 40px 30px;
+  }
+  .Uevents1 {
+    padding: 20px 15px 40px 30px;
+  }
+  .Uevents3 {
+    padding: 20px 15px 40px 30px;
   }
 }

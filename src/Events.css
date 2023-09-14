@@ -1,0 +1,96 @@
+.Upcoming-events {
+  margin-top: 100px;
+  display: grid;
+  font-family: "Inconsolata", monospace;
+  margin-left: 80px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.U-head h2 {
+  margin-top: 250px;
+  font-family: "Inconsolata", monospace;
+  font-size: 25px;
+  text-align: center;
+}
+.Upcoming-events img {
+  width: 120px;
+}
+.Upcoming-events h4 {
+  font-family: "Inconsolata", monospace;
+  font-size: 20px;
+}
+.Time p {
+  color: #000;
+  font-family: Imprima;
+  margin-top: -4px;
+  margin-left: 10px;
+}
+
+.Uevents1 {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 90px;
+  padding: 20px 0 40px 20px;
+
+  border-radius: 10px;
+}
+.Upcoming-events .Time p {
+  background-color: white;
+  margin-right: 0;
+}
+.Upcoming-events .Time i {
+  margin-top: 15px;
+}
+.Upcoming-events img {
+  margin-left: -35px;
+  margin-top: -20px;
+}
+.Uevents1 p {
+  background-color: #eee;
+  padding: 2px;
+  border-radius: 10px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+.Uevents2 p {
+  background-color: #eee;
+  padding: 2px;
+  border-radius: 10px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+.Uevents3 p {
+  background-color: #eee;
+  padding: 2px;
+  border-radius: 10px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+.Uevents2 {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 90px;
+  padding: 20px 0 40px 20px;
+  border-radius: 10px;
+}
+.Uevents3 {
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 90px;
+  padding: 20px 0 40px 20px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 850px) {
+  .Upcoming-events {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Uevents3 {
+    display: block;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Upcoming-events {
+    display: block;
+  }
+  .Uevents2 {
+    margin-top: 40px;
+  }
+}

@@ -3,6 +3,10 @@ import "../Events.css";
 import Calendar1 from "../images/Calendar1.png";
 import Calendar2 from "../images/Calendar2.png";
 import Calendar3 from "../images/Calendar3.png";
+import Wevent1 from "../images/eventsPic1.jpg";
+import Wevent2 from "../images/eventsPic2.jpg";
+import Wevent3 from "../images/eventsPic3.jpg";
+import Wevent4 from "../images/Gallery6.jpg";
 
 export default function Events() {
   return (
@@ -52,19 +56,27 @@ export default function Events() {
       <div className="Weekly-events">
         <h2>WEEKLY EVENTS</h2>
         <div className="W-Events1">
-          <div></div>
-          <div></div>
-        </div>
-        <div className="W-Events1">
-          <div></div>
+          <div className="Events-img">
+            <img src={Wevent1} alt="Event" />
+          </div>
           <div></div>
         </div>
-        <div className="W-Events1">
-          <div></div>
+        <div className="W-Events2">
+          <div className="Events-img">
+            <img src={Wevent2} alt="Event" />
+          </div>
           <div></div>
         </div>
-        <div className="W-Events1">
+        <div className="W-Events3">
+          <div className="Events-img">
+            <img src={Wevent3} alt="Event" />
+          </div>
           <div></div>
+        </div>
+        <div className="W-Events4">
+          <div className="Events-img">
+            <img src={Wevent4} alt="Event" />
+          </div>
           <div></div>
         </div>
       </div>

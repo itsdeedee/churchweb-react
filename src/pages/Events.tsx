@@ -49,6 +49,25 @@ export default function Events() {
           </div>
         </div>
       </div>
+      <div className="Weekly-events">
+        <h2>WEEKLY EVENTS</h2>
+        <div className="W-Events1">
+          <div></div>
+          <div></div>
+        </div>
+        <div className="W-Events1">
+          <div></div>
+          <div></div>
+        </div>
+        <div className="W-Events1">
+          <div></div>
+          <div></div>
+        </div>
+        <div className="W-Events1">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     </>
   );
 }

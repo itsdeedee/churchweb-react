@@ -77,6 +77,9 @@
   padding: 20px 0 40px 20px;
   border-radius: 10px;
 }
+.Events-img img {
+  width: 400px;
+}
 @media screen and (max-width: 850px) {
   .Upcoming-events {
     grid-template-columns: repeat(2, 1fr);
@@ -95,6 +98,7 @@
     margin-right: 100px;
   }
 }
+
 @media screen and (max-width: 550px) {
   .Upcoming-events {
     display: block;

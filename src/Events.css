@@ -79,6 +79,43 @@
 }
 .Events-img img {
   width: 400px;
+  margin-left: 40px;
+  margin-bottom: 70px;
+}
+.W-Events1 {
+  margin-top: 150px;
+}
+.Weekly-events h2 {
+  margin-top: 250px;
+  font-family: "Inconsolata", monospace;
+  font-size: 25px;
+  text-align: center;
+  font-size: 600;
+}
+
+.W-Events1 h2,
+.W-Events2 h2,
+.W-Events3 h2,
+.W-Events4 h2 {
+  margin-top: 0;
+  font-family: "Inconsolata", monospace;
+  font-size: 23px;
+  text-align: start;
+  margin-bottom: 30px;
+}
+.W-Events1,
+.W-Events2,
+.W-Events3,
+.W-Events4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Events-content1,
+.Events-content2,
+.Events-content3,
+.Events-content4 {
+  margin-left: -50px;
+  margin-right: 80px;
 }
 @media screen and (max-width: 850px) {
   .Upcoming-events {
@@ -97,6 +134,13 @@
   .Uevents3 p {
     margin-right: 100px;
   }
+  .Events-content1,
+  .Events-content2,
+  .Events-content3,
+  .Events-content4 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -112,5 +156,23 @@
   }
   .Uevents3 {
     padding: 20px 15px 40px 30px;
+  }
+  .Events-img img {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+  }
+  .W-Events1,
+  .W-Events2,
+  .W-Events3,
+  .W-Events4 {
+    display: block;
+    margin-top: 50px;
+  }
+  .Events-content1,
+  .Events-content2,
+  .Events-content3,
+  .Events-content4 {
+    margin-top: 50px;
   }
 }

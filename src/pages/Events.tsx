@@ -7,6 +7,7 @@ import Wevent1 from "../images/eventsPic1.jpg";
 import Wevent2 from "../images/eventsPic2.jpg";
 import Wevent3 from "../images/eventsPic3.jpg";
 import Wevent4 from "../images/Gallery6.jpg";
+import Footer from "../components/Footer.tsx";
 
 export default function Events() {
   return (
@@ -59,27 +60,56 @@ export default function Events() {
           <div className="Events-img">
             <img src={Wevent1} alt="Event" />
           </div>
-          <div></div>
+          <div className="Events-content1">
+            <h2>SOLUTION SUNDAY</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              quas accusantium delectus nihil maxime, placeat porro inventore
+              tempora quisquam nostrum ipsam quis.
+            </p>
+          </div>
         </div>
         <div className="W-Events2">
           <div className="Events-img">
             <img src={Wevent2} alt="Event" />
           </div>
-          <div></div>
+          <div className="Events-content2">
+            <h2>THANKSGIVING SUNDAY</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              quas accusantium delectus nihil maxime, placeat porro inventore
+              tempora quisquam nostrum ipsam quis.
+            </p>
+          </div>
         </div>
         <div className="W-Events3">
           <div className="Events-img">
             <img src={Wevent3} alt="Event" />
           </div>
-          <div></div>
+          <div className="Events-content3">
+            <h2>WORD AND PRAYER DINNER</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              quas accusantium delectus nihil maxime, placeat porro inventore
+              tempora quisquam nostrum ipsam quis.
+            </p>
+          </div>
         </div>
         <div className="W-Events4">
           <div className="Events-img">
             <img src={Wevent4} alt="Event" />
           </div>
-          <div></div>
+          <div className="Events-content1">
+            <h2>YOUTH FELLOWSHIP</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              quas accusantium delectus nihil maxime, placeat porro inventore
+              tempora quisquam nostrum ipsam quis.
+            </p>
+          </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

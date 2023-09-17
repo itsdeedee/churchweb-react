@@ -1,7 +1,111 @@
 .ministry-content h2 {
   margin-top: 250px;
   font-family: "Inconsolata", monospace;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
+
+  margin-bottom: 70px;
+}
+.ministry-grid1,
+.ministry-grid2,
+.ministry-grid3,
+.ministry-grid4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 150px;
+}
+
+.ministry-grid1 img,
+.ministry-grid2 img,
+.ministry-grid3 img,
+.ministry-grid4 img {
+  width: 450px;
+}
+.ministry-grid1 img,
+.ministry-grid3 img {
+  margin-left: 60px;
+}
+.ministry-grid2 img,
+.ministry-grid4 img {
+  margin-left: 50px;
+}
+.ministry1-content {
+  margin-left: 50px;
+  margin-right: 30px;
+}
+.ministry2-content {
+  margin-left: 60px;
+  margin-right: 30px;
+}
+.ministry3-content {
+  margin-left: 60px;
+  margin-right: 30px;
+  margin-bottom: 150px;
+}
+.ministry-grid1 h2,
+.ministry-grid2 h2,
+.ministry-grid3 h2,
+.ministry-grid4 h2 {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 23px;
+  text-align: start;
+}
+@media screen and (max-width: 850px) {
+  .ministry-grid1 img,
+  .ministry-grid3 img {
+    margin-left: 20px;
+  }
+  .ministry-grid2 img,
+  .ministry-grid4 img {
+    margin-left: 10px;
+  }
+  .ministry1-content {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .ministry2-content {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .ministry3-content {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+  }
+  .ministry-grid1 img,
+  .ministry-grid2 img,
+  .ministry-grid3 img,
+  .ministry-grid4 img {
+    width: 390px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .ministry-grid1,
+  .ministry-grid2,
+  .ministry-grid3,
+  .ministry-grid4 {
+    display: block;
+  }
+  .ministry-grid1 img,
+  .ministry-grid2 img,
+  .ministry-grid3 img,
+  .ministry-grid4 img {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+  }
+  .ministry1-content {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .ministry2-content {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .ministry3-content {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
 }

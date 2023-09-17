@@ -1,6 +1,6 @@
 import Header from "../components/Header.tsx";
 import Button from "../components/Button.tsx";
-import aboutPic from "../images/home-about.png";
+
 import eventPic from "../images/Eventspic .png";
 import eventPic1 from "../images/eventsPic1.jpg";
 import eventPic2 from "../images/eventsPic2.jpg";

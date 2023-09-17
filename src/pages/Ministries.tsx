@@ -38,7 +38,7 @@ export default function Ministries() {
               <img src={Ministry2} alt="children learning" />
             </div>
             <div className="ministry2-content">
-              <h2>CHOIR DEPARTMENT</h2>
+              <h2>CHILDREN DEPARTMENT</h2>
               <p>
                 {" "}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
@@ -51,7 +51,7 @@ export default function Ministries() {
           </div>
           <div className="ministry-grid3">
             <div className="ministry1-content">
-              <h2>CHOIR DEPARTMENT</h2>
+              <h2>USHER DEPARTMENT</h2>
               <p>
                 {" "}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
@@ -72,7 +72,7 @@ export default function Ministries() {
               </div>
             </div>
             <div className="ministry3-content">
-              <h2>CHOIR DEPARTMENT</h2>
+              <h2>SUNDAY SCHOOL DEPARTMENT</h2>
               <p>
                 {" "}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet

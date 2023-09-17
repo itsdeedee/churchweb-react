@@ -141,6 +141,12 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+  .Events-img img {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 550px) {

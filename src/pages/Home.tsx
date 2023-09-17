@@ -6,6 +6,7 @@ import eventPic1 from "../images/eventsPic1.jpg";
 import eventPic2 from "../images/eventsPic2.jpg";
 import eventPic3 from "../images/eventsPic3.jpg";
 import Gallerypic from "../images/Gallerypic.png";
+import pastor2 from "../images/pastor2.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -43,7 +44,7 @@ export default function Home() {
 
       <div className="Home-about">
         <div className="pic">
-          <img src={aboutPic} alt="about pic" />
+          <img src={pastor2} alt="about pic" />
         </div>
         <div className="about-content">
           <h3 className="about-content1">RCCG HOUSE OF MERCY</h3>

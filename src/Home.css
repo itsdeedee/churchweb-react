@@ -93,10 +93,10 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
   margin-top: 150px;
   padding: 0;
+  background: #eee;
 }
 .about-content {
-  background: #eee;
-  margin-left: -150px;
+  margin-left: -50px;
   margin-right: 0px;
   margin-top: 20px;
 }
@@ -109,7 +109,7 @@ h3 {
 }
 .about-content2 {
   margin-left: 50px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   text-align: justify;
   margin-right: 90px;
   font-size: smaller;
@@ -121,13 +121,13 @@ h3 {
   padding: 10px 15px;
 }
 .pic {
-  background: #433672;
   margin-top: 20px;
   margin-left: -10px;
 }
 .pic img {
-  width: 350px;
-  margin-left: 60px;
+  width: 500px;
+  margin-left: 20px;
+  margin-top: -20px;
 }
 .home-events-content p {
   background-color: grey;
@@ -362,15 +362,16 @@ span {
 @media screen and (max-width: 550px) {
   .Home-about {
     display: block;
+    margin-top: 250px;
   }
   .about-content {
-    margin-top: -69px;
     margin-bottom: 0;
     padding-bottom: 50px;
   }
   .pic img {
-    width: 270px;
-    margin-left: 60px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
   }
 
   .home-events-content {
@@ -417,6 +418,6 @@ span {
     margin-left: 10px;
   }
   .about-content {
-    margin-left: 0px;
+    margin-left: 10px;
   }
 }

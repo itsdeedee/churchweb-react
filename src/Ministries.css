@@ -108,4 +108,8 @@
     margin-left: 20px;
     margin-right: 10px;
   }
+  .ministry-grid2 h2,
+  .ministry-grid4 h2 {
+    margin-top: 20px;
+  }
 }

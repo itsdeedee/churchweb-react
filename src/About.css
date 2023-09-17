@@ -82,12 +82,12 @@
   }
   .About-RCCG-content p {
     text-align: justify;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
     font-size: 17px;
   }
   .RCCG-P {
-    margin-left: 0;
+    margin-left: 5px;
   }
 }
 @media screen and (max-width: 550px) {

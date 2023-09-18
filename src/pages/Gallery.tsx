@@ -4,7 +4,10 @@ export default function Gallery() {
   return (
     <>
       <Header />
-      <h2>Gallery Page</h2>
+      <div className="Head About-head">
+        <h2>GALLERY</h2>
+        <p></p>
+      </div>
     </>
   );
 }

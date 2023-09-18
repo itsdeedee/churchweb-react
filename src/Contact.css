@@ -1,0 +1,95 @@
+.Contact2 {
+  text-align: center;
+  margin-top: 200px;
+}
+.Contact2 h2 {
+  font-family: "Inconsolata", monospace;
+  font-size: 25px;
+  font-weight: 550;
+}
+.Contact2 p {
+  margin-bottom: 70px;
+}
+.Contact1 {
+  margin-top: 320px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 30px;
+}
+.Contact1 p {
+  padding: 150px 0;
+  margin-right: 200px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.Contact1 h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.send-B {
+  padding: 3px 155px;
+  background-color: #251c46;
+  color: white;
+}
+.contact-banner {
+  background-image: url("images/bannermap.png");
+  padding: 150px 0;
+}
+.Contact-content1 {
+  margin-left: 50px;
+}
+.contact-us h2 {
+  font-size: 19px;
+}
+.socials2 i {
+  font-size: 50px;
+}
+.contact-us {
+  margin-left: 120px;
+  margin-top: 60px;
+}
+.contact-us i {
+  font-size: 22px;
+}
+.c-icon {
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+.mail-link {
+  margin-left: 70px;
+  font-size: 18px;
+  margin-top: -10px;
+}
+.phone {
+  margin-top: 20px;
+}
+.phone p {
+  padding: 0;
+  box-shadow: none;
+  margin-left: 70px;
+  font-size: 17px;
+}
+.Contact2 i {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 850px) {
+  .Contact1 {
+    display: block;
+  }
+  .Contact-content1 {
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-us {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .Contact1 p {
+    margin-right: 100px;
+  }
+  .send-B {
+    padding: 3px 100px;
+  }
+}

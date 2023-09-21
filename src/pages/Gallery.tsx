@@ -12,7 +12,6 @@ import photo10 from "../images/Gallery8.jpg";
 import photo11 from "../images/Gal4.jpg";
 import photo13 from "../images/Gal5.jpg";
 import photo14 from "../images/Gal6.jpg";
-import Footer from "../components/Footer.tsx";
 
 export default function Gallery() {
   return (
@@ -67,7 +66,6 @@ export default function Gallery() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

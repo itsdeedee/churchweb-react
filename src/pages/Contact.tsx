@@ -1,6 +1,7 @@
 import Header from "../components/Header.tsx";
 import "../Contact.css";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer.tsx";
 
 export default function Contact() {
   return (
@@ -77,6 +78,7 @@ export default function Contact() {
           3GB
         </p>
       </div>
+      <Footer />
     </>
   );
 }

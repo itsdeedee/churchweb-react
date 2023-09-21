@@ -7,7 +7,6 @@ import Wevent1 from "../images/eventsPic1.jpg";
 import Wevent2 from "../images/eventsPic2.jpg";
 import Wevent3 from "../images/eventsPic3.jpg";
 import Wevent4 from "../images/Gallery6.jpg";
-import Footer from "../components/Footer.tsx";
 
 export default function Events() {
   return (
@@ -109,7 +108,6 @@ export default function Events() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

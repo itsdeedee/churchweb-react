@@ -183,13 +183,6 @@ export default function Home() {
           <div>
             <i className="fa-solid fa-quote-right fa-beat-fade icon2" />
           </div>
-          <Link
-            to="/"
-            style={{ textDecoration: "none" }}
-            className="testimony-link"
-          >
-            See More
-          </Link>
         </div>
       </div>
       <Footer />

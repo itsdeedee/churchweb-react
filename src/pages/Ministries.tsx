@@ -17,7 +17,12 @@ export default function Ministries() {
       <div className="ministry-content">
         <h2>MEET OUR MINISTRIES AND DEPARTMENTS</h2>
         <div className="ministry-grid">
-          <div className="ministry-grid1">
+          <div
+            className="ministry-grid1"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div className="ministry1-content">
               <h2>CHOIR DEPARTMENT</h2>
               <p>
@@ -33,7 +38,12 @@ export default function Ministries() {
               <img src={Ministry1} alt="choir" />
             </div>
           </div>
-          <div className="ministry-grid2">
+          <div
+            className="ministry-grid2"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div>
               <img src={Ministry2} alt="children learning" />
             </div>
@@ -49,7 +59,12 @@ export default function Ministries() {
               <p>Contact:</p>
             </div>
           </div>
-          <div className="ministry-grid3">
+          <div
+            className="ministry-grid3"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div className="ministry1-content">
               <h2>USHER DEPARTMENT</h2>
               <p>
@@ -65,7 +80,12 @@ export default function Ministries() {
               <img src={Ministry3} alt="choir" />
             </div>
           </div>
-          <div className="ministry-grid4">
+          <div
+            className="ministry-grid4"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <div>
               <div>
                 <img src={Ministry4} alt="children learning" />

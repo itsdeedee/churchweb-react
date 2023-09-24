@@ -91,7 +91,7 @@ h3 {
 .Home-about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 150px;
+  margin-top: 170px;
   padding: 0;
   background: #eee;
 }
@@ -153,7 +153,7 @@ h3 {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .home-gallery-img {
   width: 400px;
@@ -169,7 +169,7 @@ h3 {
 }
 .home-gallery {
   background-color: #eee;
-  margin-top: 190px;
+  margin-top: 250px;
   margin-bottom: 100px;
   padding: 0 0 100px 0;
 }
@@ -192,7 +192,7 @@ h3 {
   width: 330px;
   display: block;
   margin: 0 auto;
-  margin-top: -60px;
+  margin-top: -20px;
 }
 .testimony-content {
   text-align: center;

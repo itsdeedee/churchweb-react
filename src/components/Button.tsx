@@ -6,10 +6,10 @@ const Button = () => {
   return (
     <>
       <div className="Button">
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/contact" style={{ textDecoration: "none" }}>
           <h3>WORSHIP WITH US</h3>
         </Link>
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link to="/events" style={{ textDecoration: "none" }}>
           <h3 className="events-link">UPCOMING EVENTS</h3>
         </Link>
       </div>

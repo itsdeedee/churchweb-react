@@ -54,7 +54,7 @@ export default function Home() {
             tempora quisquam nostrum ipsam quis.
           </p>
           <Link
-            to="/"
+            to="/about"
             className="about-content-link"
             style={{ textDecoration: "none" }}
           >

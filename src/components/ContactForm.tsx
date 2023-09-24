@@ -9,10 +9,7 @@ const TEMPLATE_ID = "template_fetr1xg";
 const USER_ID = "TlyDtMBamonx8DfSQ";
 
 const ContactForm = () => {
-  const handleOnSubmit = (e: {
-    preventDefault: () => void;
-    target: string | HTMLFormElement;
-  }) => {
+  const handleOnSubmit = (e: React.ChangeEvent<any>): void => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
       (result) => {

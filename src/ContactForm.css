@@ -1,0 +1,21 @@
+.ContactForm {
+  text-align: center;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#form {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+#form-textarea-control-opinion {
+  margin-top: 20px;
+  padding: 30px 20px;
+}
+#submit {
+  padding: 2px 74px;
+  margin-top: 5px;
+  background-color: #251c46;
+  color: white;
+}

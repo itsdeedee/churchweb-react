@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
+
 import "../ContactForm.css";
 
 const SERVICE_ID = "service_omsi1nn";
@@ -8,7 +9,10 @@ const TEMPLATE_ID = "template_fetr1xg";
 const USER_ID = "TlyDtMBamonx8DfSQ";
 
 const ContactForm = () => {
-  const handleOnSubmit = (e) => {
+  const handleOnSubmit = (e: {
+    preventDefault: () => void;
+    target: string | HTMLFormElement;
+  }) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
       (result) => {
@@ -37,7 +41,7 @@ const ContactForm = () => {
           id="form-input-control-email"
           control={Input}
           label="Email"
-          name="user_email"
+          name="from_email"
           placeholder="Email…"
           required
           icon="mail"
@@ -47,7 +51,7 @@ const ContactForm = () => {
           id="form-input-control-last-name"
           control={Input}
           label="Name"
-          name="user_name"
+          name="from_name"
           placeholder="Name…"
           required
           icon="user circle"
@@ -56,7 +60,7 @@ const ContactForm = () => {
         <Form.Field
           id="form-textarea-control-opinion"
           control={TextArea}
-          name="user_message"
+          name="message"
           placeholder="Message…"
           required
         />

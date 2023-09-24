@@ -22,7 +22,12 @@ export default function Events() {
       <div className="U-head">
         <h2>UPCOMING EVENTS</h2>
       </div>
-      <div className="Upcoming-events">
+      <div
+        className="Upcoming-events"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+        data-aos-duration="3000"
+      >
         <div className="Uevents1">
           <h4>SEPT</h4>
           <p></p>
@@ -56,7 +61,12 @@ export default function Events() {
       </div>
       <div className="Weekly-events">
         <h2>WEEKLY EVENTS</h2>
-        <div className="W-Events1">
+        <div
+          className="W-Events1"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
           <div className="Events-img">
             <img src={Wevent1} alt="Event" />
           </div>
@@ -69,7 +79,12 @@ export default function Events() {
             </p>
           </div>
         </div>
-        <div className="W-Events2">
+        <div
+          className="W-Events2"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
           <div className="Events-img">
             <img src={Wevent2} alt="Event" />
           </div>
@@ -82,7 +97,12 @@ export default function Events() {
             </p>
           </div>
         </div>
-        <div className="W-Events3">
+        <div
+          className="W-Events3"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
           <div className="Events-img">
             <img src={Wevent3} alt="Event" />
           </div>
@@ -95,7 +115,12 @@ export default function Events() {
             </p>
           </div>
         </div>
-        <div className="W-Events4">
+        <div
+          className="W-Events4"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000"
+        >
           <div className="Events-img">
             <img src={Wevent4} alt="Event" />
           </div>

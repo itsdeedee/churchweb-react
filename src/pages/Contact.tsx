@@ -2,6 +2,7 @@ import Header from "../components/Header.tsx";
 import "../Contact.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer.tsx";
+import ContactForm from "../components/ContactForm.tsx";
 
 export default function Contact() {
   return (
@@ -14,14 +15,7 @@ export default function Contact() {
       <div className="Contact1">
         <div className="Contact-content1">
           <h2>Write Us a Message</h2>
-          <p></p>
-          <button className="send-B">
-            Send{" "}
-            <i
-              className="fa-regular fa-paper-plane"
-              style={{ color: "#ffffff" }}
-            ></i>
-          </button>
+          <ContactForm />
         </div>
         <div className="contact-us">
           {" "}

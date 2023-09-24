@@ -44,7 +44,13 @@ export default function About() {
 
           <div className="About-RCCG-pic">
             {" "}
-            <img src={pastor} alt="Daddy Go and Wife" />
+            <img
+              src={pastor}
+              alt="Daddy Go and Wife"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            />
           </div>
         </div>
         <p className="RCCG-P">
@@ -58,7 +64,13 @@ export default function About() {
         </p>
         <div className="About-HOM">
           <div className="About-HOM-pic">
-            <img src={pastor2} alt="Pastor Tunde and Wife" />
+            <img
+              src={pastor2}
+              alt="Pastor Tunde and Wife"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            />
           </div>
           <div className="About-HOM-content">
             <h2>ABOUT (RCCG) HOUSE OF MERCY PARISH</h2>

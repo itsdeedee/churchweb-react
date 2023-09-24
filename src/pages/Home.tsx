@@ -42,7 +42,7 @@ export default function Home() {
       </div>
       <Button />
 
-      <div className="Home-about">
+      <div className="Home-about" data-aos="fade-up">
         <div className="pic">
           <img src={pastor2} alt="about pic" />
         </div>
@@ -77,24 +77,24 @@ export default function Home() {
         />
         <div className="home-events-content">
           <div className="eventsPic1">
-            <img src={eventPic1} alt="Bible" />
+            <img src={eventPic1} alt="Bible" data-aos="flip-left" />
             <h4>SOLUTION SUNDAY</h4>
             <p></p>
           </div>
           <div className="eventsPic2">
-            <img src={eventPic2} alt="Church Choir" />
+            <img src={eventPic2} alt="Church Choir" data-aos="flip-left" />
             <h4>THANKSGIVING SUNDAY</h4>
             <p></p>
           </div>
           <div className="eventsPic3">
-            <img src={eventPic3} alt="Woman worshipping" />
+            <img src={eventPic3} alt="Woman worshipping" data-aos="flip-left" />
             <h4>WORD AND PRAYER DINNER</h4>
             <p></p>
           </div>
         </div>
       </div>
       <div className="home-gallery">
-        <div className="home-gallery2">
+        <div className="home-gallery2" data-aos="fade-down">
           <img
             src={Gallerypic}
             alt="Gallery Head"
@@ -164,7 +164,13 @@ export default function Home() {
         </div>
       </div>
       <div className="Testimonies">
-        <img src={testimonyPic} alt="Testimony header" />
+        <img
+          src={testimonyPic}
+          alt="Testimony header"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
         <div className="testimony-content">
           <div>
             <i className="fa-solid fa-quote-left fa-beat-fade icon1" />

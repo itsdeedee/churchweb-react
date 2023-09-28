@@ -1,6 +1,3 @@
-import Header from "../components/Header.tsx";
-import Button from "../components/Button.tsx";
-
 import eventPic from "../images/Eventspic .png";
 import eventPic1 from "../images/eventsPic1.jpg";
 import eventPic2 from "../images/eventsPic2.jpg";
@@ -25,23 +22,13 @@ import slide_image_10 from "../images/eventsPic2.jpg";
 import slide_image_11 from "../images/eventsPic3.jpg";
 import testimonyPic from "../images/home-testim.png";
 import Footer from "../components/Footer.tsx";
+import Herocomponent from "../components/Herocomponent.tsx";
 
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <>
-      <Header />
-
-      <div className="Head">
-        <h2>WELCOME TO, RCCG HOUSE OF MERCY</h2>
-        <h5>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas
-          accusantium delectus nihil maxime, placeat porro inventore tempora
-          quisquam nostrum ipsam quis.
-        </h5>
-      </div>
-      <Button />
-
+      <Herocomponent />
       <div className="Home-about" data-aos="fade-up">
         <div className="pic">
           <img src={pastor2} alt="about pic" />

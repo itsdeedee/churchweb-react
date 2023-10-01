@@ -1,19 +1,15 @@
-import Header from "../components/Header.tsx";
 import "../Ministries.css";
 import Ministry2 from "../images/Gallery8.jpg";
 import Ministry1 from "../images/eventsPic2.jpg";
 import Ministry3 from "../images/Gallery5.jpg";
 import Ministry4 from "../images/eventsPic1.jpg";
 import Footer from "../components/Footer.tsx";
+import Herocomponent from "../components/Herocomponent2.tsx";
 
 export default function Ministries() {
   return (
     <>
-      <Header />
-      <div className="Head About-head">
-        <h2>MINISTRIES</h2>
-        <p></p>
-      </div>
+      <Herocomponent header="Ministries" />
       <div className="ministry-content">
         <h2>MEET OUR MINISTRIES AND DEPARTMENTS</h2>
         <div className="ministry-grid">

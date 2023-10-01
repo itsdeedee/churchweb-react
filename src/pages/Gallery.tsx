@@ -1,4 +1,3 @@
-import Header from "../components/Header.tsx";
 import "../Gallery.css";
 import photo1 from "../images/Gallery1.jpg";
 import photo2 from "../images/Gal1.jpg";
@@ -13,15 +12,12 @@ import photo11 from "../images/Gal4.jpg";
 import photo13 from "../images/Gal5.jpg";
 import photo14 from "../images/Gal6.jpg";
 import Footer from "../components/Footer.tsx";
+import Herocomponent from "../components/Herocomponent2.tsx";
 
 export default function Gallery() {
   return (
     <>
-      <Header />
-      <div className="Head About-head">
-        <h2>GALLERY</h2>
-        <p></p>
-      </div>
+      <Herocomponent header="Gallery" />
       <div className="gallery-container">
         <div className="column">
           <div className="photo">

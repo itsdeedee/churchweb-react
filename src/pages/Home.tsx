@@ -59,7 +59,7 @@ export default function Home() {
             margin: "0 auto",
             width: "300px",
             height: "250px",
-            marginTop: "60px",
+            marginTop: "90px",
           }}
         />
         <div className="home-events-content">

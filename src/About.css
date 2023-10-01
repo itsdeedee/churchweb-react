@@ -12,7 +12,7 @@
   border-radius: 10px;
 }
 .About-content {
-  margin-top: 300px;
+  margin-top: 200px;
 }
 .About-RCCG {
   display: grid;
@@ -33,7 +33,7 @@
   color: #251c46;
   font-family: "DM Sans", sans-serif;
 
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
 }

@@ -1,17 +1,12 @@
-import Header from "../components/Header.tsx";
 import "../Contact.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer.tsx";
 import ContactForm from "../components/ContactForm.tsx";
-
+import Herocomponent from "../components/Herocomponent2.tsx";
 export default function Contact() {
   return (
     <>
-      <Header />
-      <div className="Head About-head">
-        <h2>CONTACT US</h2>
-        <p></p>
-      </div>
+      <Herocomponent header="Contact Us" />
       <div className="Contact1">
         <div className="Contact-content1">
           <h2>Write Us a Message</h2>

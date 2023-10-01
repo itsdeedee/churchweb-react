@@ -1,4 +1,4 @@
-import Header from "../components/Header.tsx";
+import Herocomponent from "../components/Herocomponent2.tsx";
 import Footer from "../components/Footer.tsx";
 import pastor from "../images/pastor.jpg";
 import pastor2 from "../images/pastor2.jpg";
@@ -8,14 +8,7 @@ import "../About.css";
 export default function About() {
   return (
     <>
-      <div>
-        <Header />
-        <div className="Head About-head">
-          <h2>ABOUT</h2>
-          <p></p>
-        </div>
-      </div>
-
+      <Herocomponent header="About" />
       <div className="About-content">
         <div className="About-RCCG">
           <div className="About-RCCG-content">

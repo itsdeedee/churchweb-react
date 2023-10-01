@@ -1,4 +1,3 @@
-import Header from "../components/Header.tsx";
 import "../Events.css";
 import Calendar1 from "../images/Calendar1.png";
 import Calendar2 from "../images/Calendar2.png";
@@ -8,17 +7,12 @@ import Wevent2 from "../images/eventsPic2.jpg";
 import Wevent3 from "../images/eventsPic3.jpg";
 import Wevent4 from "../images/Gallery6.jpg";
 import Footer from "../components/Footer.tsx";
+import Herocomponent from "../components/Herocomponent2.tsx";
 
 export default function Events() {
   return (
     <>
-      <div className="Events-head">
-        <Header />
-        <div className="Head About-head">
-          <h2>EVENTS</h2>
-          <p></p>
-        </div>
-      </div>
+      <Herocomponent header="Events" />
       <div className="U-head">
         <h2>UPCOMING EVENTS</h2>
       </div>

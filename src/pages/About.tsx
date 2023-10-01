@@ -6,6 +6,9 @@ import "../Home.css";
 import "../About.css";
 
 export default function About() {
+  type HeaderProps = {
+    header: string;
+  };
   return (
     <>
       <Herocomponent header="About" />

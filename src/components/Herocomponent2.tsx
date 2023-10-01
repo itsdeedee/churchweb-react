@@ -1,5 +1,6 @@
 import Header from "./Header";
 import "../Herocomponent.css";
+
 type HeaderProps = {
   header: string;
 };

@@ -14,7 +14,7 @@
   background: transparent;
   height: 80px;
   border-radius: 13px;
-  margin-top: -170px;
+  margin-top: -70px;
 }
 
 .navbar-menu {
@@ -31,8 +31,9 @@
   text-decoration: none;
   font-size: 17px;
   font-weight: 400;
+  font-family: "DM Sans", sans-serif;
+
   color: white;
-  font-family: "Inconsolata", monospace;
 }
 .navbar-links:hover {
   border-bottom: 4px solid white;
@@ -52,11 +53,11 @@
 h3 {
   font-family: Inconsolata;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   background-color: #251c46;
   color: white;
   text-decoration: none;
-  padding: 20px 17px;
+  padding: 20px 26px;
 }
 .Button {
   display: flex;
@@ -68,7 +69,7 @@ h3 {
 .events-link {
   background: transparent;
   border: 2px solid #251c46;
-  padding: 18px 12px;
+  padding: 18px 25px;
 }
 .Home-about {
   display: grid;
@@ -98,16 +99,16 @@ h3 {
 }
 .about-content-link {
   margin-left: 50px;
-
   border: 1px solid #251c46;
   padding: 10px 15px;
 }
 .pic {
-  margin-top: 20px;
+  margin-top: 23px;
   margin-left: -10px;
+  margin-bottom: 8px;
 }
 .pic img {
-  width: 500px;
+  width: 520px;
   margin-left: 20px;
   margin-top: -20px;
 }
@@ -123,6 +124,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-left: -2px;
+  margin-top: 50px;
 }
 .home-events-content img {
   width: 410px;
@@ -139,7 +141,7 @@ h3 {
 }
 .home-gallery-img {
   width: 400px;
-  height: 320px;
+  height: 300px;
   margin: 0 auto;
   display: block;
   margin-bottom: -50px;

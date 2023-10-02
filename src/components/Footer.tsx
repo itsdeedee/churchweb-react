@@ -17,7 +17,7 @@ const Footer = () => {
                   style={{ color: " #251C46", fontSize: "28px" }}
                 ></i>
               </Link>
-              <Link to="/"
+              <Link to="/">
                 <i
                   className="fa-brands fa-twitter"
                   style={{

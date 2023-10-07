@@ -1,5 +1,5 @@
 import { Formik, Form, Field } from "formik";
-
+import "../Form.css";
 const NewsletterForm = () => {
   const handleSubmit = () => {};
   return (
@@ -9,11 +9,7 @@ const NewsletterForm = () => {
           <Form className="w-64 p-4 flex flex-col">
             <h2>Sign up for our Newsletter!</h2>
             <div className="my-4 flex flex-col">
-              <Field
-                name="Name"
-                className="Name-field"
-                style={{ Border: "1px solid" }}
-              />
+              <Field name="Name" className="Name-field" />
             </div>
             <div className="my-4 flex flex-col">
               <Field name="email" className="Name-field" />

@@ -18,3 +18,6 @@
   background-color: #251c46;
   color: white;
 }
+#form-input-control-email label {
+  text-align: end;
+}

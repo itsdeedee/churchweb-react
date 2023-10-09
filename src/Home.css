@@ -231,11 +231,13 @@ Form h2 {
 .Name-field {
   padding-right: 65px;
   background-color: #d9d9d9;
-  border: none;
+
+  border: 1px solid #251c46;
 }
 .Submit-button {
   border: none;
-  background-color: #d9d9d9;
+  background-color: #251c46;
+  color: white;
   padding: 5px 15px;
   font-size: 15px;
   margin-top: 10px;

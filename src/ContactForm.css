@@ -13,11 +13,12 @@
   padding: 30px 20px;
 }
 #submit {
-  padding: 2px 74px;
+  padding: 2px 70px;
   margin-top: 5px;
   background-color: #251c46;
   color: white;
 }
-#form-input-control-email label {
-  text-align: end;
+#form-input-control-last-name label {
+  margin-left: -50px;
+  text-align: start;
 }

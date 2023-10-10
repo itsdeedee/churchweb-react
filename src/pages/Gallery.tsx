@@ -19,7 +19,7 @@ export default function Gallery() {
     <>
       <Herocomponent header="Gallery" />
       <div className="gallery-container">
-        <div className="column">
+        <div className="colum">
           <div className="photo">
             <img src={photo1} alt="photo" />
           </div>

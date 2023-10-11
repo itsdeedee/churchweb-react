@@ -45,7 +45,7 @@ export default function Home() {
             className="about-content-link"
             style={{ textDecoration: "none" }}
           >
-            Learn More
+            Learn Mor
           </Link>
         </div>
       </div>

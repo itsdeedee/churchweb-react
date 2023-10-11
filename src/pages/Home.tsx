@@ -43,7 +43,7 @@ export default function Home() {
           <Link
             to="/about"
             className="about-content-link"
-            style={{ textDecoration: "nonx" }}
+            style={{ textDecoration: "none" }}
           >
             Learn More
           </Link>

@@ -11,7 +11,7 @@ const Herocomponent = () => {
         <h5>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas
           accusantium delectus nihil maxime, placeat porro inventore tempora
-          quisquam nostrum ipsam quis.
+          quisquam nostrum ipsam
         </h5>
         <Button />
         <div>

@@ -9,9 +9,8 @@ const Herocomponent = () => {
       <div>
         <h2>WELCOME TO, RCCG HOUSE OF MERCY</h2>
         <h5>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas
-          accusantium delectus nihil maxime, placeat porro inventore tempora
-          quisquam nostrum ipsam
+          We are glad to have you here. Join us for Sunday Worship in chutch
+          venue or online at 11:15am-12:30pm.
         </h5>
         <Button />
         <div>

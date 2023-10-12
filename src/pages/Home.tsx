@@ -36,9 +36,9 @@ export default function Home() {
         <div className="about-content">
           <h3 className="about-content1">RCCG HOUSE OF MERCY</h3>
           <p className="about-content2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            quas accusantium delectus nihil maxime, placeat porro inventore
-            tempora quisquam nostrum ipsam quis.
+            Pastor Tunde Emmanuel Madariola is an Administrator and a Pastor in
+            the Redeemed Christian Church of God. He started his journey as a
+            Pastor in 2005 and has served in Six RCCG Parishes.
           </p>
           <Link
             to="/about"

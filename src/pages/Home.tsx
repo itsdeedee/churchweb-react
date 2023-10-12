@@ -35,7 +35,11 @@ export default function Home() {
         </div>
         <div className="about-content">
           <h3 className="about-content1">RCCG HOUSE OF MERCY</h3>
-          <p className="about-content2"></p>
+          <p className="about-content2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            quas accusantium delectus nihil maxime, placeat porro inventore
+            tempora quisquam nostrum ipsam quis.
+          </p>
           <Link
             to="/about"
             className="about-content-link"

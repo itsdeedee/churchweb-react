@@ -67,9 +67,9 @@ export default function Events() {
           <div className="Events-content1">
             <h2>SOLUTION SUNDAY</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              quas accusantium delectus nihil maxime, placeat porro inventore
-              tempora quisquam nostrum ipsam quis.
+              Join us for our spiritually enriching Sunday services every 2nd,
+              4th, and 5th Sunday of the month from 11:30am to 1:00pm. Come to
+              learn the Word and engage in prayer.
             </p>
           </div>
         </div>
@@ -85,9 +85,10 @@ export default function Events() {
           <div className="Events-content2">
             <h2>THANKSGIVING SUNDAY</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              quas accusantium delectus nihil maxime, placeat porro inventore
-              tempora quisquam nostrum ipsam quis.
+              Celebrate the 1st Sunday of every month with us at our church's
+              monthly service from 11:30am to 1:30pm. Join us for a joyful time
+              of dance, praise, and testimonies as we give thanks to the Lord
+              for the blessings of the month.
             </p>
           </div>
         </div>
@@ -103,9 +104,10 @@ export default function Events() {
           <div className="Events-content3">
             <h2>WORD AND PRAYER DINNER</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              quas accusantium delectus nihil maxime, placeat porro inventore
-              tempora quisquam nostrum ipsam quis.
+              Join us every Wednesday from 7pm to 8pm for our enriching weekday
+              service at our church. Delve into the profound teachings of the
+              Word of God and engage in heartfelt prayer. It's a spiritual
+              journey you won't want to miss!
             </p>
           </div>
         </div>
@@ -119,11 +121,11 @@ export default function Events() {
             <img src={Wevent4} alt="Event" />
           </div>
           <div className="Events-content1">
-            <h2>YOUTH FELLOWSHIP</h2>
+            <h2>YOUTH SUNDAYS</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              quas accusantium delectus nihil maxime, placeat porro inventore
-              tempora quisquam nostrum ipsam quis.
+              Energize your Sundays with our Youth Sunday service on the 3rd
+              Sunday of each month from 11:30am to 1:00pm. Join our dynamic
+              youths as they anchor the church service.
             </p>
           </div>
         </div>

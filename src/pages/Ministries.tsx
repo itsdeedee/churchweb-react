@@ -23,9 +23,10 @@ export default function Ministries() {
               <h2>CHOIR DEPARTMENT</h2>
               <p>
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                quas accusantium delectus nihil maxime, placeat porro inventore
-                tempora quisquam nostrum ipsam quis.
+                Our church's choir department leads the congregation in hymns,
+                praise and worship. Through music and song, they enhance our
+                worship experience, uplifting hearts and souls. Join us in
+                praise!
               </p>{" "}
               <p>To Get Involved</p>
               <p>Contact:</p>
@@ -47,9 +48,9 @@ export default function Ministries() {
               <h2>CHILDREN DEPARTMENT</h2>
               <p>
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                quas accusantium delectus nihil maxime, placeat porro inventore
-                tempora quisquam nostrum ipsam quis.
+                In our church, the children's department is a place of joy and
+                learning. We provide a nurturing environment where young hearts
+                grow in faith through engaging activities and teachings.
               </p>{" "}
               <p>To Get Involved</p>
               <p>Contact:</p>
@@ -65,9 +66,10 @@ export default function Ministries() {
               <h2>USHER DEPARTMENT</h2>
               <p>
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                quas accusantium delectus nihil maxime, placeat porro inventore
-                tempora quisquam nostrum ipsam quis.
+                Our dedicated usher department at the church ensures a warm
+                welcome to all, guiding and assisting congregants during
+                services. They embody hospitality, creating a comfortable and
+                inviting atmosphere for all.
               </p>{" "}
               <p>To Get Involved</p>
               <p>Contact:</p>
@@ -91,9 +93,10 @@ export default function Ministries() {
               <h2>SUNDAY SCHOOL DEPARTMENT</h2>
               <p>
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                quas accusantium delectus nihil maxime, placeat porro inventore
-                tempora quisquam nostrum ipsam quis.
+                Our Sunday school department is the heart of spiritual
+                education. Dedicated teachers provide engaging lessons,
+                fostering spiritual growth and a deep understanding of God's
+                love.
               </p>{" "}
               <p>To Get Involved</p>
               <p>Contact:</p>

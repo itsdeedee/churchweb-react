@@ -8,7 +8,7 @@ import photo7 from "../images/Gallery5.jpg";
 import photo8 from "../images/Gal3.jpg";
 import photo9 from "../images/Gallery7.jpg";
 import photo10 from "../images/Gallery8.jpg";
-import photo11 from "../images/Gal4.JPG";
+import photo11 from "../images/Gal4.jpg";
 import photo13 from "../images/Gal5.jpg";
 import photo14 from "../images/Gal6.jpg";
 import Footer from "../components/Footer.tsx";

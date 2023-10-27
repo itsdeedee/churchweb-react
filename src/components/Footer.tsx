@@ -33,22 +33,34 @@ const Footer = () => {
         <div className="quick-link-head">
           <div>QUICK LINKS</div>
           <div className="quick-link">
-            <Link to="/" style={{ textDecoration: "none", color: " #251C46" }}>
+            <Link
+              to="/about"
+              style={{ textDecoration: "none", color: " #251C46" }}
+            >
               About
             </Link>
           </div>
           <div className="quick-link">
-            <Link to="/" style={{ textDecoration: "none", color: " #251C46" }}>
+            <Link
+              to="/events"
+              style={{ textDecoration: "none", color: " #251C46" }}
+            >
               Events
             </Link>
           </div>
           <div className="quick-link">
-            <Link to="/" style={{ textDecoration: "none", color: " #251C46" }}>
-              Ministies{" "}
+            <Link
+              to="/ministries"
+              style={{ textDecoration: "none", color: " #251C46" }}
+            >
+              Ministries{" "}
             </Link>
           </div>
           <div className="quick-link">
-            <Link to="/" style={{ textDecoration: "none", color: " #251C46" }}>
+            <Link
+              to="/gallery"
+              style={{ textDecoration: "none", color: " #251C46" }}
+            >
               Gallery
             </Link>
           </div>

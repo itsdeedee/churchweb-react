@@ -23,7 +23,7 @@ export default function Events() {
         data-aos-duration="3000"
       >
         <div className="Uevents1">
-          <h4>SEPT</h4>
+          <h4>OCT</h4>
           <p></p>
           <img src={Calendar1} alt="Calendar" />
           <h4>WORD AND PRAYER DINNER</h4>
@@ -33,7 +33,7 @@ export default function Events() {
           </div>
         </div>
         <div className="Uevents2">
-          <h4>SEPT</h4>
+          <h4>NOV</h4>
           <p></p>
           <img src={Calendar2} alt="Calendar" />
           <h4>YOUTH FELLOWSHIP</h4>
@@ -43,7 +43,7 @@ export default function Events() {
           </div>
         </div>
         <div className="Uevents3">
-          <h4>SEPT</h4>
+          <h4>NOV</h4>
           <p></p>
           <img src={Calendar3} alt="Calendar" />
           <h4>SOLUTION SUNDAY</h4>

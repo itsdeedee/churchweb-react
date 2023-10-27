@@ -163,9 +163,13 @@ export default function Home() {
             <i className="fa-solid fa-quote-left fa-beat-fade icon1" />
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-            quas accusantium delectus nihil maxime, placeat porro inventore
-            tempora quisquam nostrum ipsam quis.
+            I would like to express my unreserved appreciation to God Almighty
+            for counting my family and I worthy to be a part of this body of
+            Christ. RCCG House Of Mercy Coventry has been a blessing to us on
+            every sides, the leadership and the work force has shown so much
+            love needed to settle in a foreign land, and we cannot thank
+            you enough.
+            {} - Brother Oso
           </p>
           <div>
             <i className="fa-solid fa-quote-right fa-beat-fade icon2" />

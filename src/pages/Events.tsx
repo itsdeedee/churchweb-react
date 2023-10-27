@@ -26,27 +26,27 @@ export default function Events() {
           <h4>OCT</h4>
           <p></p>
           <img src={Calendar1} alt="Calendar" />
-          <h4>WORD AND PRAYER DINNER</h4>
+          <h4>SOLUTION SUNDAY</h4>
           <div className="Time d-flex">
             <i className="fa-regular fa-clock" />
-            <p>19:00 - 20:00</p>
+            <p>11:30 - 13:00</p>
           </div>
         </div>
         <div className="Uevents2">
           <h4>NOV</h4>
           <p></p>
           <img src={Calendar2} alt="Calendar" />
-          <h4>YOUTH FELLOWSHIP</h4>
+          <h4>WORD AND PRAYER DINNER</h4>
           <div className="Time d-flex">
             <i className="fa-regular fa-clock" />
-            <p>14:00 - 16:00</p>
+            <p>19:00 - 20:00</p>
           </div>
         </div>
         <div className="Uevents3">
           <h4>NOV</h4>
           <p></p>
           <img src={Calendar3} alt="Calendar" />
-          <h4>SOLUTION SUNDAY</h4>
+          <h4>THANSKGIVING SUNDAY</h4>
           <div className="Time d-flex">
             <i className="fa-regular fa-clock" />
             <p>11:30 - 13:00</p>
